@@ -1,0 +1,4 @@
+/.pytest_cache/
+/.env
+/.idea
+/tests/business_logic/services/.pytest_cache/

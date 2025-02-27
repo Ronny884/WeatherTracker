@@ -1,0 +1,84 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Заголовок */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Формы и кнопки */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#inputContainer {
+    margin-bottom: 20px; /* Увеличенное расстояние между полем ввода и кнопками */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 250px;
+    font-size: 16px;
+}
+
+/* Кнопки */
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px; /* Отступ между кнопками */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Результаты погоды */
+#weatherResult {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+.weather-title {
+    margin-top: 0;
+}
+
+.weather-info {
+    margin: 5px 0;
+}
